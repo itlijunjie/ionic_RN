@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.4.0):
+    - AFNetworking/NSURLConnection (= 2.4.0)
+    - AFNetworking/NSURLSession (= 2.4.0)
+    - AFNetworking/Reachability (= 2.4.0)
+    - AFNetworking/Security (= 2.4.0)
+    - AFNetworking/Serialization (= 2.4.0)
+    - AFNetworking/UIKit (= 2.4.0)
+  - AFNetworking/NSURLConnection (2.4.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.0)
+  - AFNetworking/Security (2.4.0)
+  - AFNetworking/Serialization (2.4.0)
+  - AFNetworking/UIKit (2.4.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Masonry (0.5.3)
+  - React/Core (0.26.1)
+  - React/RCTText (0.26.1):
+    - React/Core
+  - React/RCTWebSocket (0.26.1):
+    - React/Core
+
+DEPENDENCIES:
+  - AFNetworking (= 2.4.0)
+  - Masonry (= 0.5.3)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f2098992f4718b8d8e9c6ccf4634e1ccee44871
+  Masonry: 9f515466afe48632562342a40a1c224071a1a022
+  React: 9a7eb5f6e7146734fb50ab17f515087d302d5cca
+
+PODFILE CHECKSUM: c968f2e3aab84dd9064b870e872d59d92529c6d1
+
+COCOAPODS: 1.0.1
