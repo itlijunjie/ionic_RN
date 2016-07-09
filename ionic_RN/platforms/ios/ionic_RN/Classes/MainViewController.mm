@@ -137,7 +137,8 @@
     }];
     
     [_rootView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.top.equalTo(superView);
+        make.left.right.equalTo(superView);
+        make.top.equalTo(self.webView.mas_bottom);
         make.height.equalTo(@(400));
     }];
 }

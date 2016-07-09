@@ -397,6 +397,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Junjie Li (MPYL37WCJB)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -406,7 +407,9 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "ionic_RN/ionic_RN-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanduoduo;
 				PRODUCT_NAME = ionic_RN;
+				PROVISIONING_PROFILE = "ac61c34b-d269-44c6-a657-0673b11e303a";
 			};
 			name = Debug;
 		};
@@ -419,13 +422,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Junjie Li (MPYL37WCJB)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ionic_RN/ionic_RN-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "ionic_RN/ionic_RN-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanduoduo;
 				PRODUCT_NAME = ionic_RN;
+				PROVISIONING_PROFILE = "ac61c34b-d269-44c6-a657-0673b11e303a";
 			};
 			name = Release;
 		};
